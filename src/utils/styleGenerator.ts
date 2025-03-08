@@ -79,25 +79,38 @@ export const generateNightModeCSS = (settings: NightModeSettings): string => {
       text-shadow: none !important;
     }
     
-    /* 为内容块添加更好的分隔 - 卡片效果 */
-    .article, .feed-item, .status-item, .comment-item, 
-    .review, .note, [class*="card"], [class*="item"], 
-    .main-bd > div, .stream-item, .status, .new-status, .blocks {
-      margin-bottom: 12px !important;
-      padding: 8px !important;
-      background-color: rgba(255, 255, 255, 0.03) !important;
-      border-radius: 4px !important;
-      border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    }
-    
     /* 增强分割线可见性 */
     hr, div[class*="divider"], div[class*="separator"], .border-bottom, 
     div[style*="border-bottom"], div[style*="border-top"], 
     div[class*="border-t"], div[class*="border-b"] {
-      border-color: rgba(255, 255, 255, 0.15) !important;
+      border-color: rgba(255, 255, 255, 0.2) !important;
       border-width: 1px !important;
       margin: 10px 0 !important;
       opacity: 1 !important;
+    }
+    
+    /* 使用其他样式增强分割线 */
+    hr {
+      height: 1px !important;
+      background-color: rgba(255, 255, 255, 0.15) !important;
+      border-style: dashed !important;
+    }
+    
+    /* 对特定分割线使用点线样式 */
+    div[class*="divider"], div[class*="separator"] {
+      border-style: dotted !important;
+      border-width: 2px !important;
+    }
+    
+    /* 为分割线添加微弱阴影效果 */
+    hr, div[class*="divider"], div[class*="separator"] {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    }
+    
+    /* 调整元素间距增强视觉区分 */
+    section, article, .content-block, .section {
+      margin-bottom: 20px !important;
+      padding-bottom: 10px !important;
     }
     
     /* 豆瓣网站特定优化 */
@@ -107,11 +120,9 @@ export const generateNightModeCSS = (settings: NightModeSettings): string => {
     
     /* 内容列表项样式 */
     .content .item, .topic-item, .comment-item, .reviews .item {
-      padding: 12px !important;
+      padding: 5px !important;
       margin-bottom: 8px !important;
-      background-color: rgba(40, 40, 40, 0.3) !important;
-      border-radius: 6px !important;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.15) !important;
     }
     
     /* 改善列表视觉层次 */
