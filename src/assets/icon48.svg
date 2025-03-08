@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="24" cy="24" r="23.5" fill="#222222" stroke="#666666" stroke-width="0.5"/>
+  <path d="M24 0.5C11.5736 0.5 1.5 10.5736 1.5 24C1.5 37.4264 11.5736 47.5 24 47.5C36.4264 47.5 46.5 37.4264 46.5 24C46.5 10.5736 36.4264 0.5 24 0.5Z" fill="#222222" stroke="#666666" stroke-width="0.5"/>
+  <path d="M24 0.5C11.5736 0.5 1.5 10.5736 1.5 24H24V0.5Z" fill="#3F51B5" stroke="#666666" stroke-width="0.5"/>
+  <text x="24" y="29" font-family="Arial" font-size="18" fill="white" text-anchor="middle">N</text>
+</svg> 

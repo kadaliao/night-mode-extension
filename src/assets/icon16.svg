@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="8" cy="8" r="7.5" fill="#222222" stroke="#666666" stroke-width="0.5"/>
+  <path d="M8 0.5C3.85786 0.5 0.5 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5C12.1421 15.5 15.5 12.1421 15.5 8C15.5 3.85786 12.1421 0.5 8 0.5Z" fill="#222222" stroke="#666666" stroke-width="0.5"/>
+  <path d="M8 0.5C3.85786 0.5 0.5 3.85786 0.5 8H8V0.5Z" fill="#3F51B5" stroke="#666666" stroke-width="0.5"/>
+  <text x="8" y="9.5" font-family="Arial" font-size="6" fill="white" text-anchor="middle">N</text>
+</svg> 

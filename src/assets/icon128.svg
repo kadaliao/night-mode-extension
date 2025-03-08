@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="64" cy="64" r="63.5" fill="#222222" stroke="#666666" stroke-width="0.5"/>
+  <path d="M64 0.5C29.4609 0.5 0.5 29.4609 0.5 64C0.5 98.5391 29.4609 127.5 64 127.5C98.5391 127.5 127.5 98.5391 127.5 64C127.5 29.4609 98.5391 0.5 64 0.5Z" fill="#222222" stroke="#666666" stroke-width="0.5"/>
+  <path d="M64 0.5C29.4609 0.5 0.5 29.4609 0.5 64H64V0.5Z" fill="#3F51B5" stroke="#666666" stroke-width="0.5"/>
+  <text x="64" y="76" font-family="Arial" font-size="48" fill="white" text-anchor="middle">N</text>
+</svg> 
